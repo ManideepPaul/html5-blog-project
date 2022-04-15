@@ -6,6 +6,16 @@
 
 /* menu */
 
+.mainContainer {
+    display: flex;
+}
+
+.blogContainer {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
 .menu {
     background-color: #eff1f2;
     height: 100vh;
