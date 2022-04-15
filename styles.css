@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* menu */
+
+.menu {
+    background-color: #eff1f2;
+    height: 100vh;
+    box-sizing: border-box;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+input.search {
+    background: transparent url(./assets/images/icon/search_black_24dp.svg) no-repeat right center ;
+    padding-right: calc(100% * 3 / 4);
+    border: 2px solid #9fa3a6;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+/* menu */
