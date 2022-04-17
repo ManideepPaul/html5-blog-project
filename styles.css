@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-header1 {
+.header1 {
     font-family: 'Roboto Slab', serif;
     font-size: 51.3333px;
     font-style: normal;
@@ -14,7 +14,7 @@ header1 {
 }
 
 
-header2 {
+.header2 {
     font-family: 'Roboto Slab', serif;
     font-size: 25.6667px;
     font-style: normal;
@@ -22,7 +22,7 @@ header2 {
     color: #3d4449;
 }
 
-header3 {
+.header3 {
     font-family: 'Roboto Slab', serif;
     font-size: 18.3333px;
     font-style: normal;
@@ -173,3 +173,117 @@ input.search {
     padding-top: 30px;
 }
 /* menu */
+
+/* blogContainer */
+
+.blogContainer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* topsec */
+
+.topSec {
+    border-bottom: 3px solid #f56a6a;
+    position: relative;
+    margin: 0 50px;
+    /* width: 100vw; */
+    padding-bottom: 10px
+}
+
+.topSec .social {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.socialItem {
+    width: 18px;
+    height: 18px;
+    padding-left: 10px;
+}
+
+/* topsec */
+
+/* mainBlog */
+
+.mainBlog {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 50px;
+    padding: 60px 0;
+    border-bottom: 1px solid #9fa3a6;
+    gap: 30px;
+}
+
+.mainBlog img {
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+}
+ .mainBlog .text {
+     
+ }
+
+.secHead {
+    text-transform: uppercase;
+    color:#7f888f;
+    margin: 20px 0 40px 0;
+}
+
+.mainBlog .button {
+    width: 130px;
+}
+
+/* mainBlog */
+
+/* secondSec */
+
+.secondSec {
+    padding: 0 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid #9fa3a6;
+    box-sizing: border-box;
+}
+
+.secondSecHead {
+    display: inline;
+    border-bottom: 3px solid #f56a6a;
+    padding-bottom: 8px;
+    max-width: fit-content;
+    color: #3d4449;
+}
+
+.icons {
+    margin: 40px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconItem {
+    display: flex;
+    width: 50%;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.iconItem img {
+    width: 80px;
+    height: 80px;
+    transform: rotate(-45deg);
+}
+
+.iconItem .border {
+    border:  2px solid #9fa3a6;
+    padding: 20px 20px;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+/* secondSec */
+/* blogContainer */
