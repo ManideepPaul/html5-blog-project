@@ -254,15 +254,20 @@ input.search {
     color: #3d4449;
 }
 
+/* .sectext {
+    margin: 10px 20px;
+} */
+
 .icons {
     margin: 40px 0 50px 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .iconItem {
     display: flex;
-    width: 50%;
+    width: 48%;
     gap: 30px;
     align-items: center;
     margin-bottom: 40px;
