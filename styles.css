@@ -141,4 +141,35 @@ input.search {
     max-width: fit-content;
     color: #3d4449;
 }
+
+.contact {
+    padding-top: 40px;
+}
+
+.contact .desc {
+    margin-top: 40px;
+
+}
+
+.flexCon {
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #9fa3a6;
+    padding: 20px 0;
+    align-items: flex-start;
+
+}
+
+.flexCon a {
+    color: #7f888f;
+    text-decoration: none;
+}
+
+.email {
+    padding-bottom: 30px;
+}
+
+.menuFoot {
+    padding-top: 30px;
+}
 /* menu */
