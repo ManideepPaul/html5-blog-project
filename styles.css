@@ -38,6 +38,10 @@ body {
     color: #7f888f;
 }
 
+.deskHidden {
+    display: none;
+}
+
 /* menu */
 
 .mainContainer {
