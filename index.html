@@ -6,13 +6,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./responsive.css">
 	<title>codedamn Project</title>
 </head>
 
 <body>
 	<!-- start writing your code -->
 	<section class="mainContainer">
-		<aside class="menuSec">
+		<aside class="menuSec hidden">
 			<input class="search" type="search" placeholder="Search">
 			<h2 class="header2 menu">Menu</h2>
 			<div class="menuItems">
@@ -74,14 +75,26 @@
 			</div>
 		</aside>
 		<div class="blogContainer">
-			<nav>
+			<nav class="hidden">
 				<img src="./assets/images//icon/menu_white_48dp.svg" alt="">
 			</nav>
+			<div class="navMobile">
+				<div class="ham">
+					<img src="./assets/images/icon/grey-menu.svg" alt="">
+				</div>
+				<div class="social">
+					<img class="socialItem" src="./assets/images/icon/twitter.svg" alt="">
+					<img class="socialItem" src="./assets/images/icon/facebook.svg" alt="">
+					<img class="socialItem" src="./assets/images/icon/snapchat.svg" alt="">
+					<img class="socialItem" src="./assets/images/icon/instagram.svg" alt="">
+					<img class="socialItem" src="./assets/images/icon/medium.svg" alt="">
+				</div>
+			</div>
 			<div class="blogs">
 				<div class="topSec">
 					<span class="header3">Editorial</span>
 					<span>by HTML5 UP</span>
-					<div class="social">
+					<div class="social hidden">
 						<img class="socialItem" src="./assets/images/icon/twitter.svg" alt="">
 						<img class="socialItem" src="./assets/images/icon/facebook.svg" alt="">
 						<img class="socialItem" src="./assets/images/icon/snapchat.svg" alt="">
