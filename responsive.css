@@ -15,4 +15,56 @@
         background-color: #dddfdf;
         border-radius: 5px;
     }
+
+    .mainBlog {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainBlog img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .icons {
+        padding-top: 50px
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+    
+    .iconItem {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .iconItem .secText {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .iconItem img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .galleryItems {
+        grid-template-columns: auto;
+    }
+
+    .gallery img {
+        width: auto;
+        height: auto;
+    }
+
+    .galItem {
+        width: auto;
+        border-bottom: 1px solid #7f888f;
+        padding: 40px 0
+    }
 }
